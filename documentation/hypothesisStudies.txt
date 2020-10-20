@@ -1,0 +1,8 @@
+@object : webography of hypothesis study
+
+
+
+Prise en compte des processus non-stationnaires ACP : 
+	
+	- https://journals.openedition.org/msh/pdf/12117
+	- https://fr.wikipedia.org/wiki/Stationnarit%C3%A9_d%27une_s%C3%A9rie_temporelle#:~:text=sont%20ici%20expos%C3%A9s.-,Stationnarit%C3%A9%20en%20tendance,sa%20composante%20li%>
