@@ -11,4 +11,30 @@ So far, we intend to work with the language R so we'll need :
 
 Plus some useful packages such as :
 
-- FactoMineR 
+- FactoMineR
+- ggplot2
+- sf
+...
+
+## Errors that could occur
+
+### Package 'sf'
+
+When installing the package `sf`, the following errors can occur :
+
+> ERROR : dependency 'units' is not available for package 'sf'
+> or
+> configure: error: gdal-config not found or not executable
+
+To resolve these issues on a linux environment, this command can be executed in the terminal :
+
+> sudo apt-get -y update && sudo apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+
+In addition, the package "rgeos" will be necessary, so we want to execute this in our RStudio :
+
+```r
+install.packages("rgeos")
+```
+
+For more information, see : https://github.com/r-spatial/sf
+
